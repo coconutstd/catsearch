@@ -1,10 +1,11 @@
-console.log("app is running!");
-
 import { api } from './api/api.js';
+import SearchInput from "./compenents/SearchInput.js";
+import SearchResult from "./compenents/SearchResult.js";
+import ImageInfo from "./compenents/ImageInfo.js";
 
-class App {
-    $target = null;
-    data = [];
+export default class App {
+
+    data = []
 
     constructor($target) {
         this.$target = $target;
