@@ -19,19 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d13872a-ba13-44e7-8424-318c2d8c5db5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/babel.config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    <list default="true" id="8d13872a-ba13-44e7-8424-318c2d8c5db5" name="Default Changelist" comment="1. es6 모듈로 변경">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImageInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/compenents/ImageInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SearchInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/compenents/SearchInput.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SearchResult.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/compenents/SearchResult.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compenents/ImageInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/compenents/ImageInfo.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,8 +74,17 @@
       <option name="presentableId" value="Default" />
       <updated>1620989962601</updated>
       <workItem from="1620989963686" duration="3701000" />
-      <workItem from="1621009478080" duration="4375000" />
+      <workItem from="1621009478080" duration="4487000" />
+      <workItem from="1621042856716" duration="4377000" />
     </task>
+    <task id="LOCAL-00001" summary="1. es6 모듈로 변경">
+      <created>1621015157970</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621015157970</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +100,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1. es6 모듈로 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. es6 모듈로 변경" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1318" y="455" key="Github.ShareDialog" timestamp="1620991965142">
@@ -109,5 +115,9 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="1273" y="263" key="Github.UntrackedFilesDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1620991974819" />
+    <state x="560" y="291" key="Vcs.Push.Dialog.v2" timestamp="1621015159724">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="560" y="291" key="Vcs.Push.Dialog.v2/0.23.1920.1057@0.23.1920.1057" timestamp="1621015159724" />
   </component>
 </project>

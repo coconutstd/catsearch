@@ -9964,19 +9964,37 @@ class ImageInfo {
 
     constructor({ $target, data }) {
         const $imageInfo = document.createElement("div");
+        $imageInfo.setAttribute('tabindex', 0);
         $imageInfo.className = "ImageInfo";
         this.$imageInfo = $imageInfo;
         $target.appendChild($imageInfo);
 
         this.data = data;
-
         this.render();
+        $imageInfo.addEventListener('click', this.onClick);
+        $imageInfo.addEventListener('keydown', this.onKeyDown);
+    }
+
+    onClick(e) {
+        const clickedClassName = e.target.className;
+        if (
+            clickedClassName === 'close' ||
+            clickedClassName.indexOf('ImageInfo') !== -1
+        ) {
+            this.style.display = 'none';
+        }
+    }
+
+    onKeyDown(e) {
+        console.log(e);
+        if(e.key === 'Escape') this.style.display = 'none';
     }
 
     setState(nextData) {
         this.data = nextData;
         this.render();
     }
+
 
     render() {
         if (this.data.visible) {
